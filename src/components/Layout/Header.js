@@ -5,7 +5,7 @@ import HeaderCartButton from "./HeaderCartButton";
 const Header = () => {
     return <React.Fragment>
         <header className={classes.header}>
-            <h1>Reactmeals</h1>
+            <h1>SINDHU RAM</h1>
             <HeaderCartButton />
         </header>
         <div className={classes['main-image']}>
