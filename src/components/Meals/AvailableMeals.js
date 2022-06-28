@@ -34,8 +34,7 @@ const AvailableMeals = () => {
 
     useEffect(() => {
       fetchMeals()
-      console.log(meals);
-    }, [])
+    });
 
     if (httpError) {
       return (
